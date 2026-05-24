@@ -116,5 +116,15 @@ Star the repo if you find it useful!
 
 ---
 
+### 📈 Project Velocity
+
+![Star History Chart](https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Zero-Dollar-App-Stacks&type=date&theme=dark)
+
+---
+
+Developed with ❤️ by [ishandutta2007](https://github.com/ishandutta2007)
+
+---
+
 **Made for indie hackers, bootstrapped founders, students, and open-source enthusiasts.**  
 Let's build powerful applications without spending money.
