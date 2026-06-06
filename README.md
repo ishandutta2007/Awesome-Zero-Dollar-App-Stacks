@@ -6,20 +6,15 @@
 *Focused on Completely Free / Zero-Cost Full-Stack Combinations*  
 **Last updated: May 2026**
 
-This repository tracks the **best zero-dollar app stacks** — complete technology combinations that allow you to build, deploy, and run production-grade applications **without spending any money**. These stacks are ideal for indie hackers, startups, students, open-source projects, and bootstrapped businesses.
-
-**Examples** include T3 Stack, Supabase + Next.js, Appwrite + Flutter, and fully self-hosted open-source combinations. Tools and stacks listed here focus on **free tiers**, generous limits, and completely open-source self-hosted options that scale reasonably without costs.
-
-**Open-source emphasis**: This section is heavily expanded with every major active project and combination for fully self-hosted, zero-cost, privacy-first application development.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+This repository tracks the **best zero-dollar app stacks** — technology combinations that allow you to build, deploy, and run production-grade applications **without spending any money**.
 
 ## Table of Contents
 - [Featured Zero-Dollar "Recipes"](#featured-zero-dollar-recipes)
 - [AI & Machine Learning](#ai--machine-learning)
 - [Hosting & Infrastructure](#hosting--infrastructure)
 - [Database & Storage](#database--storage)
-- [Backend-as-a-Service (BaaS)](#backend-as-a-service-baas)
+- [Backend-as-a-Service (BaaS) & CMS](#backend-as-a-service-baas--cms)
+- [Low-Code & Internal Tools](#low-code--internal-tools)
 - [Automation & Workflow](#automation--workflow)
 - [Productivity, Marketing & Operations](#productivity-marketing--operations)
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -28,225 +23,143 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ---
 
-## SaaS / Hosted Zero-Cost Platforms
-
-### Popular Free-Tier Combinations
-
-- **[Supabase + Next.js + Vercel](https://supabase.com/)**  
-  Most popular modern stack. PostgreSQL database, Auth, Storage, Edge Functions + Next.js frontend deployed free on Vercel.
-
-- **[Firebase + Flutter / React](https://firebase.google.com/)**  
-  Google’s generous free tier for mobile and web apps with Auth, Firestore, Storage, and Hosting.
-
-- **[Appwrite + Flutter / Next.js](https://appwrite.io/)**  
-  Open-source backend server with generous self-hosted or cloud free tier.
-
-- **[PocketBase + SvelteKit / React](https://pocketbase.io/)**  
-  Single-file backend (Go) with SQLite + excellent admin UI.
-
-- **[Directus + PostgreSQL + Vercel](https://directus.io/)**  
-  Open-source headless CMS that turns any SQL database into a powerful backend.
-
----
-
-### Other Strong Free-Tier Stacks
-
-- **Railway / Render / Fly.io** free tiers + open-source backends
-- **Neon + Next.js** (serverless Postgres)
-- **PlanetScale + Next.js** (MySQL serverless)
-
----
-
 ## Featured Zero-Dollar "Recipes"
 
-Complete stacks for specific use cases that cost $0 to run:
-
-- **The Modern Web Stack**: [Next.js](https://nextjs.org/) + [Supabase](https://supabase.com/) + [Vercel](https://vercel.com/)
-- **The "AI Money-Maker" Stack**: [Groq](https://groq.com/) (Inference) + [CrewAI](https://www.crewai.com/) (Agents) + [Vercel](https://vercel.com/) + [Gumroad](https://gumroad.com/)
-- **The Local-First AI Stack**: [Ollama](https://ollama.com/) + [PocketBase](https://pocketbase.io/) + [SvelteKit](https://kit.svelte.dev/)
-- **The Automated Content Stack**: [Make.com](https://make.com/) + [Canva](https://canva.com/) + [Buffer](https://buffer.com/) + [CapCut](https://capcut.com/)
-- **The Enterprise-Lite Stack**: [Coolify](https://coolify.io/) (Self-hosted) + [Oracle Cloud Always Free](https://www.oracle.com/cloud/free/) + [n8n](https://n8n.io/)
+| Stack Name | Key Technologies | Use Case |
+| :--- | :--- | :--- |
+| **Modern Web Stack** | Next.js + Supabase + Vercel | Full-stack Web Apps |
+| **AI Money-Maker** | Groq + CrewAI + Vercel + Gumroad | AI Agents & SaaS |
+| **Local-First AI** | Ollama + PocketBase + SvelteKit | Privacy-first Apps |
+| **Automated Content** | Make.com + Canva + Buffer + CapCut | Content Automation |
+| **Enterprise-Lite** | Coolify + Oracle Cloud + n8n | Scalable Self-hosting |
 
 ---
 
 ## AI & Machine Learning
 
-### Inference & Models
-- **[Groq](https://groq.com/)** — Ultra-fast AI inference engine. Provides free access to open models like Llama 3 and Mixtral.
-- **[Ollama](https://ollama.com/)** — Run large language models (LLMs) locally on your own hardware. Zero cost, total privacy.
-- **[Hugging Face Spaces](https://huggingface.co/spaces)** — Free hosting for ML apps (Streamlit, Gradio).
-- **[ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/)** — Powerful free tiers for conversational AI and coding assistance.
-- **[Perplexity AI](https://www.perplexity.ai/)** — AI-powered search and research engine with real-time citations.
-
-### AI Agents & Frameworks
-- **[CrewAI](https://github.com/joaomdmoura/crewAI)** — Framework for orchestrating autonomous AI agents to work together.
-- **[LangChain](https://github.com/langchain-ai/langchain)** — The standard framework for building LLM-powered applications.
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Groq](https://groq.com/)** | 14,400 RPD / 30,000 TPM | Tiered pricing for higher RPD/TPM |
+| **[Ollama](https://ollama.com/)** | **Unlimited** (Local) | N/A (Self-hosted) |
+| **[ChatGPT](https://chatgpt.com/)** | Limited GPT-4o, Unlimited Mini | Unlimited GPT-4o / GPT-5 |
+| **[Claude](https://claude.ai/)** | ~15-40 msgs / 5 hours | 5x more usage + priority access |
+| **[Perplexity AI](https://perplexity.ai)** | Unlimited Basic, 5 Pro / day | 300+ Pro Searches / day |
+| **[Hugging Face](https://huggingface.co/)** | Free CPU Spaces (16GB RAM) | Paid GPU / Upgradeable CPU |
+| **[CrewAI](https://crewai.com)** | **Unlimited** (Open Source) | CrewAI Enterprise features |
+| **[LangChain](https://langchain.com)** | **Unlimited** (Open Source) | LangSmith (Paid usage tiers) |
 
 ---
 
 ## Hosting & Infrastructure
 
-### Frontend & Static Sites
-- **[Vercel](https://vercel.com/)** — The home of Next.js. Excellent free tier for hobbyists.
-- **[Netlify](https://www.netlify.com/)** — Powerful CI/CD and hosting for modern web projects.
-- **[Cloudflare Pages](https://pages.cloudflare.com/)** — Fast, secure hosting with unlimited bandwidth on the free tier.
-- **[GitHub Pages](https://pages.github.com/)** — Simple hosting directly from your GitHub repositories.
-
-### Backend & Containers
-- **[Oracle Cloud Always Free](https://www.oracle.com/cloud/free/)** — Unmatched free tier: 4 ARM Ampere A1 Compute instances with 24 GB of RAM.
-- **[Coolify](https://coolify.io/)** — An open-source, self-hostable alternative to Heroku/Netlify/Vercel. Manage your own servers with ease.
-- **[Railway](https://railway.app/)** — Trial credits and usage-based free tier for deploying any code.
-- **[Fly.io](https://fly.io/)** — Run small VMs close to your users; generous free allowance.
-- **[Render](https://render.com/)** — Easy-to-use platform for hosting web apps, static sites, and databases.
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Oracle Cloud](https://oracle.com)** | 4 ARM OCPU + 24GB RAM | Pay-as-you-go for more resources |
+| **[Cloudflare Pages](https://pages.cloudflare.com)** | Unlimited BW, 100k Workers/day | Unlimited Workers + Paid R2 |
+| **[Vercel](https://vercel.com)** | 100GB Bandwidth, 6k Build mins | Pro: 1TB+ BW, 45m Build timeout |
+| **[Netlify](https://netlify.com)** | 300 Monthly Credits (approx 20 builds) | Pro: $19/mo (More credits/seats) |
+| **[Coolify](https://coolify.io)** | **Unlimited** (Self-hosted) | Cloud-managed option (Paid) |
+| **[GitHub Pages](https://pages.github.com)** | 100GB BW / month | N/A (Part of GitHub Free/Pro) |
+| **[Fly.io](https://fly.io)** | Trial credits (~$5) | Pay-as-you-go |
+| **[Render](https://render.com)** | 512MB RAM, shared CPU (sleeps) | $7/mo+ for no-sleep services |
+| **[Railway](https://railway.app)** | $5 one-time credit (Trial) | $0 plan with $1/mo credit |
 
 ---
 
 ## Database & Storage
 
-### SQL & NoSQL
-- **[Neon](https://neon.tech/)** — Serverless PostgreSQL with branching capabilities.
-- **[PlanetScale](https://planetscale.com/)** — Serverless MySQL (Vitess) for massive scale (check latest free tier updates).
-- **[MongoDB Atlas](https://www.mongodb.com/atlas/database)** — Managed MongoDB with a permanent free tier.
-- **[Upstash](https://upstash.com/)** — Serverless Redis, Kafka, and Vector database.
-
-### Vector Databases (for AI)
-- **[Pinecone](https://www.pinecone.io/)** — Managed vector database for long-term AI memory. Free starter plan available.
-- **[Weaviate](https://weaviate.io/)** — Open-source vector database with cloud and self-hosted options.
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Supabase](https://supabase.com)** | 500MB DB, 50k Auth MAU | Pro: $25/mo (8GB DB, 100k MAU) |
+| **[Neon](https://neon.tech)** | 512MB Storage, 100 CU-hours | Pro: $19/mo (Autoscaling storage) |
+| **[MongoDB Atlas](https://mongodb.com)** | 512MB - 5GB (Shared) | Dedicated instances (Paid) |
+| **[Upstash](https://upstash.com)** | 500k Redis/mo, 10k Kafka/day | Pay-as-you-go (Unlimited) |
+| **[Pinecone](https://pinecone.io)** | 2GB Storage, 1 Serverless Index | Paid Serverless / Dedicated Pods |
+| **[PlanetScale](https://planetscale.com)** | **No Free Tier** | $5/mo (Launch Plan) |
+| **[Weaviate](https://weaviate.io)** | 14-day Cloud Sandbox | Paid Managed Cloud / Unlimited OSS |
 
 ---
 
-
-### Full Zero-Cost Self-Hosted Stacks
-
-- **[T3 Stack](https://github.com/t3-oss/create-t3-app)**  
-  The gold standard TypeScript starter: Next.js, tRPC, Tailwind CSS, TypeScript, Prisma, NextAuth.js. Can run completely free with Supabase or self-hosted Postgres.
-
-- **[Supabase Self-Hosted](https://github.com/supabase/supabase)**  
-  Full open-source Firebase alternative. Docker-based self-hosting for Auth, Database, Storage, and Functions.
-
-- **[Appwrite](https://github.com/appwrite/appwrite)**  
-  Complete open-source backend server (Auth, Database, Storage, Functions, Realtime). Can be self-hosted on a cheap VPS or even free Oracle Cloud tier.
-
-- **[PocketBase](https://github.com/pocketbase/pocketbase)**  
-  Single executable Go backend with embedded SQLite. Extremely lightweight and perfect for indie apps.
-
-- **[Directus](https://github.com/directus/directus)**  
-  Open-source headless CMS / backend that works with any SQL database. Turns Postgres into a powerful API + admin panel.
-
-- **[NocoDB](https://github.com/nocodb/nocodb)**  
-  Open-source Airtable alternative. Turns any database into a smart spreadsheet with REST/GraphQL APIs.
-
-- **[Budibase](https://github.com/Budibase/budibase)**  
-  Open-source low-code platform for building internal tools, CRMs, and apps with minimal coding.
-
-- **[Tooljet](https://github.com/ToolJet/ToolJet)**  
-  Open-source low-code platform to build and deploy internal tools and business applications.
-
-
 ## Backend-as-a-Service (BaaS) & CMS
 
-- **[Supabase](https://supabase.com/)** — Open-source Firebase alternative (Postgres, Auth, Storage, Functions).
-- **[Appwrite](https://appwrite.io/)** — Unified backend for frontend and mobile developers.
-- **[PocketBase](https://pocketbase.io/)** — Lightweight, single-file Go backend with SQLite.
-- **[Directus](https://directus.io/)** — Open-source headless CMS that turns any SQL database into an API.
-- **[Strapi](https://strapi.io/)** — Leading open-source headless CMS, customizable and self-hostable.
-- **[Firebase](https://firebase.google.com/)** — Google's comprehensive app development platform.
-- **[Ghost](https://ghost.org/)** — Professional open-source publishing platform for blogs and newsletters.
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Appwrite](https://appwrite.io)** | 2GB Storage, 75k Auth MAU | Pro: $15/mo (Cloud) |
+| **[PocketBase](https://pocketbase.io)** | **Unlimited** (Self-hosted) | N/A (Self-hosted) |
+| **[Directus](https://directus.io)** | **Unlimited** (Self-hosted) | Managed Cloud starts at $99/mo |
+| **[Strapi](https://strapi.io)** | **Unlimited** (Self-hosted) | Enterprise Edition / Strapi Cloud |
+| **[Firebase](https://firebase.google.com)** | 1GB DB, 10GB Storage (Spark) | Blaze Plan (Pay-as-you-go) |
+| **[Ghost](https://ghost.org)** | **Unlimited** (Self-hosted) | Managed Hosting (Paid) |
 
 ---
 
 ## Low-Code & Internal Tools
 
-- **[NocoDB](https://nocodb.com/)** — Open-source Airtable alternative. Turns any database into a smart spreadsheet.
-- **[Budibase](https://budibase.com/)** — Low-code platform for building internal tools and business apps quickly.
-- **[ToolJet](https://tooljet.com/)** — Open-source low-code framework to build and deploy internal tools.
-- **[AppFlowy](https://appflowy.io/)** — Open-source Notion alternative for task management and notes.
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[NocoDB](https://nocodb.com)** | **Unlimited** (Self-hosted) | Enterprise Support |
+| **[Budibase](https://budibase.com)** | **Unlimited** (Self-hosted) | Cloud Pro: $10/mo / Enterprise |
+| **[ToolJet](https://tooljet.com)** | 2 Apps, 50 Users (Cloud) | Pro: $20/mo (Unlimited) |
+| **[AppFlowy](https://appflowy.io)** | **Unlimited** (Self-hosted) | AppFlowy Cloud Sync (Paid) |
 
 ---
 
 ## Automation & Workflow
 
-- **[n8n](https://n8n.io/)** — Powerful workflow automation. Can be self-hosted for free with no limits.
-- **[Make.com](https://www.make.com/)** — Visual automation builder with 1000+ integrations.
-- **[Zapier](https://zapier.com/)** — The industry standard for connecting apps, with a basic free tier.
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[n8n](https://n8n.io)** | **Unlimited** (Self-hosted) | Cloud: $20/mo (2,500 executions) |
+| **[Make.com](https://make.com)** | 1,000 Credits / month | Pro: $9/mo (10,000 credits) |
+| **[Zapier](https://zapier.com)** | 100 Tasks / mo (1-step only) | Starter: $20/mo (Multi-step Zaps) |
 
 ---
 
 ## Productivity, Marketing & Operations
 
-### Design & Content
-- **[Canva](https://www.canva.com/)** — Professional design made easy for non-designers.
-- **[CapCut](https://www.capcut.com/)** — Advanced video editing for social media and marketing.
-- **[Unsplash](https://unsplash.com/) / [Pexels](https://www.pexels.com/)** — High-quality, royalty-free stock assets.
-
-### Operations & Sales
-- **[Notion](https://www.notion.so/)** — All-in-one workspace for notes, tasks, and wikis.
-- **[Gumroad](https://gumroad.com/)** — Sell digital products and services with no monthly fees.
-- **[Buffer](https://buffer.com/)** — Schedule social media posts across multiple platforms.
-- **[Cal.com](https://cal.com/)** — Open-source scheduling (Calendly alternative).
-- **[Fireflies.ai](https://fireflies.ai/) / [Otter.ai](https://otter.ai/)** — AI-powered meeting assistants for transcription and summaries.
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Canva](https://canva.com)** | 250k+ Free Templates | Pro: Unlimited Premium Assets |
+| **[CapCut](https://capcut.com)** | Basic Tools & Cloud Storage | Pro Features (Transition/Effects) |
+| **[Gumroad](https://gumroad.com)** | **$0/mo** (10% + $0.50 Fee) | Lower fees for higher volume |
+| **[Buffer](https://buffer.com)** | 3 Channels, 10 Scheduled Posts | Essentials: $6/mo per channel |
+| **[Notion](https://notion.so)** | Unlimited Blocks (Individuals) | Plus: $10/mo (Team Collab) |
+| **[Cal.com](https://cal.com)** | Unlimited Scheduling (Indiv) | Pro: $12/mo (Team features) |
+| **[Fireflies.ai](https://fireflies.ai)** | 800 mins Storage, 20 AI Credits | Pro: $10/mo (Unlimited) |
+| **[Otter.ai](https://otter.ai)** | 300 mins / mo (30 min / meet) | Pro: $10/mo (1,200 mins) |
+| **[Unsplash](https://unsplash.com)** | Unlimited Free Images | Unsplash+ (Paid) |
+| **[Pexels](https://pexels.com)** | Unlimited Free Images/Video | N/A |
 
 ---
 
-## Open-Source GitHub Projects & Enterprise
+## Open-Source GitHub Projects
 
-- **Next.js + Supabase Self-Hosted + Docker** — Full modern web stack
-- **Node.js + Express + PostgreSQL + Redis + Nginx** (self-hosted on VPS)
-- **Strapi + PostgreSQL + React + Nginx** — Headless CMS stack
-- **ERPNext** (full open-source ERP) + custom frontend
-- **MedusaJS + Next.js Storefront** — Complete open-source e-commerce stack
-- **Ghost + Docker** — Free blogging + membership platform
-- **Umami + PostgreSQL** — Google Analytics alternative
-
-### Additional Strong Open-Source Options
-
-- **[Cal.com](https://github.com/calcom/cal.com)** — Open-source Calendly alternative
-- **[Formbricks](https://github.com/formbricks/formbricks)** — Open-source Typeform/SurveyMonkey
-- **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** — Open-source Notion alternative
-- **[Twenty](https://github.com/twentyhq/twenty)** — Modern open-source CRM (Salesforce alternative)
-- **[N8n](https://github.com/n8n-io/n8n)** — Free workflow automation (Zapier alternative)
-- **[Docmost](https://github.com/docmost/docmost)** — Open-source Notion/wiki
-- **[Plane](https://github.com/makeplane/plane)** — Open-source project management (Jira alternative)
-
-**Recommended Zero-Cost Hosting Options**:
-- Oracle Cloud Always Free Tier
-- GitHub Pages + Cloudflare
-- Railway / Render free tiers
-- Coolify or CapRover for self-hosting multiple apps
-
-
-### Frameworks & Starters
-- **[T3 Stack](https://github.com/t3-oss/create-t3-app)** — Next.js, tRPC, Tailwind, Prisma.
-- **[MedusaJS](https://github.com/medusajs/medusa)** — Open-source e-commerce engine.
-- **[ERPNext](https://github.com/frappe/erpnext)** — Comprehensive open-source ERP for business management.
-
-### Alternatives to Popular SaaS
-- **[Twenty](https://github.com/twentyhq/twenty)** — Open-source CRM (Salesforce alt).
-- **[Plane](https://github.com/makeplane/plane)** — Project management (Jira alt).
-- **[Formbricks](https://github.com/formbricks/formbricks)** — Experience management (Typeform alt).
-- **[Umami](https://github.com/umami-software/umami)** — Privacy-focused analytics (Google Analytics alt).
-- **[Docmost](https://github.com/docmost/docmost)** — Documentation and wiki (Confluence/Notion alt).
-
-### Classic Self-Hosted Combinations
-- **Next.js + Supabase Self-Hosted + Docker**
-- **Node.js + Express + PostgreSQL + Redis + Nginx**
-- **Strapi + PostgreSQL + React + Nginx**
+| Project | Category | License | Free Tier Limit |
+| :--- | :--- | :--- | :--- |
+| **[T3 Stack](https://github.com/t3-oss/create-t3-app)** | Web Framework | MIT | **Unlimited** |
+| **[MedusaJS](https://github.com/medusajs/medusa)** | E-commerce | MIT | **Unlimited** |
+| **[ERPNext](https://github.com/frappe/erpnext)** | ERP / Business | GPLv3 | **Unlimited** |
+| **[Twenty](https://github.com/twentyhq/twenty)** | CRM | AGPL-3.0 | **Unlimited** |
+| **[Plane](https://github.com/makeplane/plane)** | Project Management | AGPL-3.0 | **Unlimited** |
+| **[Formbricks](https://github.com/formbricks/formbricks)** | Surveys / Feedback | AGPL-3.0 | **Unlimited** |
+| **[Umami](https://github.com/umami-software/umami)** | Analytics | MIT | **Unlimited** |
+| **[Docmost](https://github.com/docmost/docmost)** | Documentation | AGPL-3.0 | **Unlimited** |
 
 ---
 
 ## How to Contribute
 
 1. Fork the repo.
-2. Add/edit entries (follow existing format).
-3. Include: name, link, and a brief description.
+2. Add/edit entries (follow tabular format).
+3. Include: Name, Free Tier Limit, and Premium Limit.
 4. Submit a PR!
 
 ---
 
 ## Disclaimer
 
-- "Zero dollar" usually refers to free tiers. Always check for usage limits to avoid unexpected costs.
-- Links are for informational purposes and do not imply endorsement.
+- "Zero dollar" refers to the free tiers available as of mid-2026.
+- Always monitor usage to avoid unexpected transitions to paid tiers.
+- Self-hosting requires managing your own infrastructure (e.g., Oracle Cloud).
 
 ---
 
@@ -257,7 +170,3 @@ Complete stacks for specific use cases that cost $0 to run:
 ---
 
 Developed with ❤️ by [ishandutta2007](https://github.com/ishandutta2007)
----
-
-**Made for indie hackers, bootstrapped founders, students, and open-source enthusiasts.**  
-Let's build powerful applications without spending money.
