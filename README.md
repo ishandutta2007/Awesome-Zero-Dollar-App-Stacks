@@ -5,6 +5,10 @@
 [![GitHub Issues](https://img.shields.io/github/issues/ishandutta2007/Awesome-Zero-Dollar-App-Stacks.svg)](https://github.com/ishandutta2007/Awesome-Zero-Dollar-App-Stacks/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/ishandutta2007/Awesome-Zero-Dollar-App-Stacks.svg)](https://github.com/ishandutta2007/Awesome-Zero-Dollar-App-Stacks/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Zero-Dollar-App-Stacks/graphs/commit-activity)
+<a href="https://github.com/ishandutta2007?tab=followers">
+  <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ishandutta2007?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+</a>
+
 
 **A curated list of high-quality SaaS products, free-tier services, and open-source projects for building production-grade applications at zero cost.**
 
