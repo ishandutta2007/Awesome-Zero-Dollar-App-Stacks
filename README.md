@@ -17,7 +17,12 @@ Build your next startup, indie project, or portfolio for **$0** using the most g
 - [🤖 AI & Machine Learning](#-ai--machine-learning)
 - [🌐 Hosting & Infrastructure](#-hosting--infrastructure)
 - [💾 Database & Storage](#-database--storage)
+- [🔑 Authentication & Identity](#-authentication--identity)
 - [🔌 Backend-as-a-Service (BaaS) & CMS](#-backend-as-a-service-baas--cms)
+- [🔍 Search & Discovery](#-search--discovery)
+- [📊 Analytics & Monitoring](#-analytics--monitoring)
+- [📧 Email & Communications](#-email--communications)
+- [🖼️ Media & File Management](#-media--file-management)
 - [🛠️ Low-Code & Internal Tools](#-low-code--internal-tools)
 - [🔄 Automation & Workflow](#-automation--workflow)
 - [📈 Productivity, Marketing & Operations](#-productivity-marketing--operations)
@@ -34,7 +39,7 @@ Build your next startup, indie project, or portfolio for **$0** using the most g
 | :--- | :--- | :--- |
 | **⚡ Modern Web Stack** | Next.js + Supabase + Vercel | Scalable Full-stack Web Apps |
 | **🧠 AI Money-Maker** | Groq + CrewAI + Vercel + Gumroad | AI Agents & Micro-SaaS |
-| **🔒 Local-First AI** | Ollama + PocketBase + SvelteKit | Privacy-centric Applications |
+| **🔍 Search-First AI** | Tavily + Ollama + PocketBase | Privacy-centric Search & AI |
 | **📽️ Automated Content** | Make.com + Canva + Buffer + CapCut | Social Media & Content Automation |
 | **🏢 Enterprise-Lite** | Coolify + Oracle Cloud + n8n | Scalable Self-hosted Infrastructure |
 
@@ -47,10 +52,11 @@ Build your next startup, indie project, or portfolio for **$0** using the most g
 | :--- | :--- | :--- |
 | **[Groq](https://groq.com/)** | 14,400 RPD / 30,000 TPM | Tiered pricing for scale |
 | **[Ollama](https://ollama.com/)** | **Unlimited** (Local Hosting) | N/A (Privacy-first) |
+| **[Tavily AI](https://tavily.com)** | 1,000 search requests / month | Pro: $30/mo+ |
 | **[ChatGPT](https://chatgpt.com/)** | GPT-4o (Limited), Unlimited Mini | Unlimited GPT-4o / GPT-5 |
 | **[Claude](https://claude.ai/)** | ~15-40 msgs / 5 hours | 5x usage + priority access |
-| **[Perplexity AI](https://perplexity.ai)** | Unlimited Basic, 5 Pro / day | 300+ Pro Searches / day |
 | **[Hugging Face](https://huggingface.co/)** | Free CPU Spaces (16GB RAM) | Paid GPU / Dedicated CPU |
+| **[Weights & Biases](https://wandb.ai)** | 100GB Storage (Personal) | Team pricing |
 | **[CrewAI](https://crewai.com)** | **Unlimited** (Open Source) | Enterprise features |
 | **[LangChain](https://langchain.com)** | **Unlimited** (Open Source) | LangSmith (Paid tiers) |
 
@@ -78,13 +84,25 @@ Build your next startup, indie project, or portfolio for **$0** using the most g
 
 | Tool | Free Tier Limit | Premium Limit |
 | :--- | :--- | :--- |
-| **[Supabase](https://supabase.com)** | 500MB DB, 50k Auth MAU | Pro: $25/mo (8GB DB) |
+| **[Supabase](https://supabase.com)** | 500MB DB, 5GB BW | Pro: $25/mo (8GB DB) |
 | **[Neon](https://neon.tech)** | 512MB Storage, 100 CU-hours | Pro: $19/mo (Autoscaling) |
+| **[Turso](https://turso.tech)** | 9GB Storage, 1B Reads/mo | Scaler: $29/mo |
 | **[MongoDB Atlas](https://mongodb.com)** | 512MB - 5GB (Shared) | Dedicated instances |
 | **[Upstash](https://upstash.com)** | 500k Redis/mo, 10k Kafka/day | Pay-as-you-go (Unlimited) |
 | **[Pinecone](https://pinecone.io)** | 2GB Storage, 1 Serverless Index | Paid Serverless / Pods |
-| **[PlanetScale](https://planetscale.com)** | **No Free Tier** | $5/mo (Launch Plan) |
-| **[Weaviate](https://weaviate.io)** | 14-day Cloud Sandbox | Paid Cloud / Unlimited OSS |
+
+---
+
+## 🔑 Authentication & Identity
+*Secure user authentication and management without the complexity.*
+
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Clerk](https://clerk.com)** | 10,000 MAU | Core: $25/mo |
+| **[Kinde](https://kinde.com)** | 10,000 MAU | Pro: $25/mo |
+| **[Auth0](https://auth0.com)** | 7,500 MAU | Paid tiers |
+| **[Logto](https://logto.io)** | 5,000 MAU | Paid tiers |
+| **[Supabase Auth](https://supabase.com/auth)** | 50,000 MAU | Included in Pro |
 
 ---
 
@@ -95,10 +113,58 @@ Build your next startup, indie project, or portfolio for **$0** using the most g
 | :--- | :--- | :--- |
 | **[Appwrite](https://appwrite.io)** | 2GB Storage, 75k Auth MAU | Pro: $15/mo (Cloud) |
 | **[PocketBase](https://pocketbase.io)** | **Unlimited** (Self-hosted) | N/A (Self-hosted) |
+| **[Sanity.io](https://sanity.io)** | 10k docs, 5GB assets | Paid tiers for scale |
 | **[Directus](https://directus.io)** | **Unlimited** (Self-hosted) | Managed Cloud ($99/mo+) |
 | **[Strapi](https://strapi.io)** | **Unlimited** (Self-hosted) | Strapi Cloud / Enterprise |
 | **[Firebase](https://firebase.google.com)** | 1GB DB, 10GB Storage (Spark) | Blaze (Pay-as-you-go) |
-| **[Ghost](https://ghost.org)** | **Unlimited** (Self-hosted) | Managed Hosting |
+
+---
+
+## 🔍 Search & Discovery
+*Add powerful search capabilities to your applications.*
+
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Algolia](https://algolia.com)** | 10k searches, 10k records | Pay-as-you-go |
+| **[Meilisearch](https://meilisearch.com)** | **Unlimited** (Self-hosted) | Cloud: $29/mo |
+| **[Tavily](https://tavily.com)** | 1,000 API requests / month | Pro: $30/mo+ |
+
+---
+
+## 📊 Analytics & Monitoring
+*Track user behavior and monitor application health.*
+
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Mixpanel](https://mixpanel.com)** | 20M Events / month | Growth: $24/mo+ |
+| **[Amplitude](https://amplitude.com)** | 50k MAU, 10M Events | Paid tiers |
+| **[Umami](https://umami.is)** | 10k views / month (Cloud) | Paid Cloud / Unlimited OSS |
+| **[Sentry](https://sentry.io)** | 5k Errors / month, 1 user | Developer: $26/mo |
+| **[LogRocket](https://logrocket.com)** | 1,000 sessions / month | Paid tiers |
+| **[Better Stack](https://betterstack.com)** | 10 Monitors, 3min checks | Paid tiers |
+
+---
+
+## 📧 Email & Communications
+*Transactional and marketing emails for user engagement.*
+
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Resend](https://resend.com)** | 3,000 emails / mo (100/day) | Pro: $20/mo |
+| **[Brevo](https://brevo.com)** | 300 emails / day | Starter: $25/mo |
+| **[SendGrid](https://sendgrid.com)** | 100 emails / day | Essentials: $19.95/mo |
+| **[MailerLite](https://mailerlite.com)** | 1,000 subs, 12,000 emails/mo | Paid tiers |
+
+---
+
+## 🖼️ Media & File Management
+*Optimize and serve images, videos, and files at scale.*
+
+| Tool | Free Tier Limit | Premium Limit |
+| :--- | :--- | :--- |
+| **[Cloudinary](https://cloudinary.com)** | 25 Credits (~25GB storage) | Plus: $89/mo |
+| **[Uploadcare](https://uploadcare.com)** | 3GB Storage, 3GB Traffic | Paid tiers |
+| **[imgix](https://imgix.com)** | 1,000 images, Unlimited transforms | Paid tiers |
 
 ---
 
@@ -120,6 +186,8 @@ Build your next startup, indie project, or portfolio for **$0** using the most g
 | Tool | Free Tier Limit | Premium Limit |
 | :--- | :--- | :--- |
 | **[n8n](https://n8n.io)** | **Unlimited** (Self-hosted) | Cloud: $20/mo (2,500 execs) |
+| **[GitHub Actions](https://github.com/features/actions)** | 2,000 mins/mo (Private) | Paid minutes |
+| **[Pipedream](https://pipedream.com)** | 333 invocations / day | Pro: $19/mo |
 | **[Make.com](https://make.com)** | 1,000 Credits / month | Pro: $9/mo (10k credits) |
 | **[Zapier](https://zapier.com)** | 100 Tasks / mo (1-step only) | Starter: $20/mo |
 
