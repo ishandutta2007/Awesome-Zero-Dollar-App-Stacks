@@ -116,6 +116,7 @@ Build your next startup, indie project, or portfolio for **$0** using the most g
 | Tool | Free Tier Limit | Premium Limit |
 | :--- | :--- | :--- |
 | **[Appwrite](https://appwrite.io)** | 2GB Storage, 75k Auth MAU | Pro: $15/mo (Cloud) |
+| **[Nhost](https://nhost.io)** | 1GB DB, 1GB Storage, 5GB Egress (1 project) | Pro: $25/mo (10GB DB) |
 | **[PocketBase](https://pocketbase.io)** | **Unlimited** (Self-hosted) | N/A (Self-hosted) |
 | **[Sanity.io](https://sanity.io)** | 10k docs, 5GB assets | Paid tiers for scale |
 | **[Directus](https://directus.io)** | **Unlimited** (Self-hosted) | Managed Cloud ($99/mo+) |
